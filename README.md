@@ -1,3 +1,3 @@
 # AlexA Programming language
-## also known as "Alex Assembler" or "Алёха"
+## also known as "Assembler of Alex" or "Алёха"
 ###   filename extension  - "*.aapl"
