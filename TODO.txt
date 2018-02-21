@@ -19,8 +19,8 @@ long - 64 бита (8 байт) QWORD .
 u_long - 64 бита (8 байт) QWORD 
 
 char - запрещен ! 
-char_ASCII - символ ASCII .
-char_UTF - символ UTF 32. 
+char_ASCII - символ ASCII . 8 бит (1 байт)
+char_UTF - символ UTF 32. 32 бита (4 байта)
 
 string - запрещена ! 
 string_ASCII - строка ASCII .
