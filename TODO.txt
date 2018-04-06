@@ -17,13 +17,16 @@
 AX[<-]BX; - в значение AX положить(присвоить) значение BX
 BX[+]2[->]result; - в result положить результат сложения BX + 2 
 
-[object]o_console;
-[function]f_print()[<-]{console.print()}; 
+[object]o_console[extention]print(x){console.print(x)};
+
+[function]f_print(){console.print()}; 
 
 [byte(2)] v_twoByte; - массив из 2 байт 
+[extention]e_getIndx();
+v_twoByte[<-]e_getIndx();
 
-console.print(result); - вывести содержимое result в консоль 
-console.print(result).nl; - вывести содержимое result в консоль , перевести курсор на новую строку. 
+console.print(v_result); - вывести содержимое result в консоль 
+console.print(v_result.nl); - вывести содержимое result в консоль , перевести курсор на новую строку. 
 
 
 Типы:
