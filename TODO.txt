@@ -15,6 +15,10 @@ public variable Day is @Integer. // глобальной переменной Da
 
 Day set 16. // переменной Day присвоили значение 16 
 
+local variable Name is @String. // локальной переменной Name присвоили тип String
+
+Name set "Alex".// переменной Name присвоили значение "Alex"
+
 
 // текст комментария ; - комментарии
 
