@@ -23,7 +23,9 @@ Name set "Alex".// переменной Name присвоили значение
 public function Concatenation_two_strings return @String :
 public variable First_string is @String , 
 public variable Second_string is @String , 
-return First_string + Second_string .
+local variable Result_string is @String , 
+Result_string set First_string + Second_string,
+return Result_string .
 
 
 
