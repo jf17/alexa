@@ -20,6 +20,13 @@ local variable Name is @String. // локальной переменной Name 
 Name set "Alex".// переменной Name присвоили значение "Alex"
 
 
+public function Concatenation_two_strings return @String :
+public variable First_string is @String , 
+public variable Second_string is @String , 
+return First_string + Second_string .
+
+
+
 // текст комментария ; - комментарии
 
 [имя_функции]<имя_переменной>{значение};
