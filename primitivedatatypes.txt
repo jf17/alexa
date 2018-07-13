@@ -1,0 +1,5 @@
+byte == 8 бит (1 байт) BYTE 
+short == 16 бит (2 байта) WORD
+int == 32 бита (4 байта) DWORD 
+long == 64 бита (8 байт) QWORD
+big == 128 бита (16 байт) OCTAWORD
